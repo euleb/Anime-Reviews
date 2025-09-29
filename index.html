@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Review</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body> 
+    <div id="container">
+        <header>
+            <h1>My Anime Reviews </h1> 
+        </header>
+        <hr>
+        <p>
+            Welcome to my anime review page! <br>
+            Here, I share my thoughts and opinions on various anime series I've watched. <br>
+            Feel free to explore and discover new shows to add to your watchlist ⋆౨ৎ˚⟡˖ ࣪
+        </p>
+        <input type="text" id="searchInput" placeholder="Search for an anime..." style="display:block;margin:20px auto;width:60%;border-radius:5px;font-size:16px;font-family: Jost;">
+        <div id="flex">
+            <div id="gallery">
+                <div class="hoverinfo_trigger" style="position: relative; display: inline-block;">
+                    <img src="" alt="Black Clover" id="imageUrl">
+                    <div class="tooltip">
+                        <p style="background-color: #FCE8F1;">Black Clover</p>
+                        <p>My Rating: ★ ★ ★ ★ ☆</p>
+                        <p>I personally really love this show. It has a very compelling underdog story which I enjoyed watching!</p>
+                    </div>
+                    <p id="title"></p>
+                </div>
+                <div class="hoverinfo_trigger" style="position: relative; display: inline-block;">
+                    <img src="" alt="HunterHunter" id="imageUrl2">
+                    <div class="tooltip">
+                        <p style="background-color: #FCE8F1;">Hunter x Hunter</p>
+                        <p>My Rating: ★ ★ ★ ★ ☆</p>
+                        <p>Very likeable characters and engaging story. Gets you hype for a lot of battles and character reveals.</p>
+                    </div>
+                    <p id="title2"></p>
+                </div>
+                <div class="hoverinfo_trigger" style="position: relative; display: inline-block;">
+                    <img src="" alt="Tokyo Ghoul" id="imageUrl3">
+                    <div class="tooltip">
+                        <p style="background-color: #FCE8F1;">Tokyo Ghoul</p>
+                        <p>My Rating: ★ ★ ★ ☆ ☆ </p>
+                        <p>One of my very first animes, and honestly the manga is better once you get to the second season. But the anime is still one of my favorites (˶˃ ᵕ ˂˶) .ᐟ.ᐟ</p>
+                    </div>
+                    <p id="title3"></p>
+                </div>
+                <div class="hoverinfo_trigger" style="position: relative; display: inline-block;">
+                    <img src="" alt="Mob Pyscho" id="imageUrl4">
+                    <div class="tooltip">
+                        <p style="background-color: #FCE8F1;">Mob Psycho 100</p>
+                        <p>My Rating: ★ ★ ★ ★ ☆</p>
+                        <p>Honestly one of the most well done animes out there. Lots of contraversy on the artstyle but I love it.</p>
+                    </div>
+                    <p id="title4"></p>
+                </div>
+                <div class="hoverinfo_trigger" style="position: relative; display: inline-block;">
+                    <img src="" alt="Blue Exorcist" id="imageUrl5">
+                    <div class="tooltip">
+                        <p style="background-color: #FCE8F1;">Blue Exorcist</p>
+                        <p>My Rating: ★ ★ ★ ★ ★</p>
+                        <p>Definitely a comfort anime. Not the best plotline or animation but it has a special place in my heart !!</p>
+                    </div>
+                    <p id="title5"></p>
+                </div>
+                <div class="hoverinfo_trigger" style="position: relative; display: inline-block;">
+                    <img src="" alt="Jujutsu Kaisen" id="imageUrl6">
+                    <div class="tooltip">
+                        <p style="background-color: #FCE8F1;">Jujutsu Kaisen</p>
+                        <p>My Rating: ★ ★ ★ ☆ ☆</p>
+                        <p>Love the anime concept and the characters...just stop killing them off please. <br> (╥﹏╥)</p>
+                    </div>
+                    <p id="title6"></p>
+                </div>
+                <div class="hoverinfo_trigger" style="position: relative; display: inline-block;">
+                    <img src="" alt="Dr. Stone" id="imageUrl7">
+                    <div class="tooltip">
+                        <p style="background-color: #FCE8F1;">Dr. Stone</p>
+                        <p>My Rating: ★ ★ ★ ★ ☆</p>
+                        <p>I love this anime honestly, so much chemistry and learning components so you're never bored. Need more seasons!!!</p>
+                    </div>
+                    <p id="title7"></p>
+                </div>
+                <div class="hoverinfo_trigger" style="position: relative; display: inline-block;">
+                    <img src="" alt="Banana Fish" id="imageUrl8">
+                    <div class="tooltip">
+                        <p style="background-color: #FCE8F1;">Banana Fish</p>
+                        <p>My Rating: ★ ★ ★ ☆ ☆</p>
+                        <p>Very mature anime. Needs trigger warnings for certain audiences, but very heart wrenching and overall a memorable anime.</p>
+                    </div>
+                    <p id="title8"></p>
+                </div>
+                <div class="hoverinfo_trigger" style="position: relative; display: inline-block;">
+                    <img src="" alt="Kimetsu no Yaiba" id="imageUrl9">
+                    <div class="tooltip">
+                        <p style="background-color: #FCE8F1;">Kimetsu no Yaiba</p>
+                        <p>My Rating: ★ ★ ★ ☆ ☆</p>
+                        <p>When this first came out I was so enthralled by the animation style, and still am. I do think that the storyline could be improved upon; have yet to watch the movie...</p>
+                    </div>
+                    <p id="title9"></p>
+                </div>
+                <div class="hoverinfo_trigger" style="position: relative; display: inline-block;">
+                    <img src="" alt="Saiki Kusuo no Ψ-nan" id="imageUrl10">
+                    <div class="tooltip">
+                        <p style="background-color: #FCE8F1;">Saiki K</p>
+                        <p>My Rating: ★ ★ ★ ★ ★ </p>
+                        <p>One of the best slice of life anime out there, constant rewatch all the characters are so entertaining and never fail to make me laugh (˶˘ ³˘)♡</p>
+                    </div>
+                    <p id="title10"></p>
+                </div>
+                <div class="hoverinfo_trigger" style="position: relative; display: inline-block;">
+                    <img src="" alt="Boku dake ga Inai Machi" id="imageUrl11">
+                    <div class="tooltip">
+                        <p style="background-color: #FCE8F1;">Erased</p>
+                        <p>My Rating: ★ ★ ★ ☆ ☆ </p>
+                        <p>Super trippy first time watching, need to rewatch again. Watch if you like psychological animes.</p>
+                    </div>
+                    <p id="title11"></p>
+                </div>
+                <div class="hoverinfo_trigger" style="position: relative; display: inline-block;">
+                    <img src="" alt="Given" id="imageUrl12">
+                    <div class="tooltip">
+                        <p style="background-color: #FCE8F1;">Given</p>
+                        <p>My Rating: ★ ★ ★ ☆ ☆</p>
+                        <p>Cute anime, first mainstream boys love representation in anime </p>
+                    </div>
+                    <p id="title12"></p>
+                </div>
+                <div class="hoverinfo_trigger" style="position: relative; display: inline-block;">
+                    <img src="" alt="Naruto" id="imageUrl13">
+                    <div class="tooltip">
+                        <p style="background-color: #FCE8F1;">Naruto</p>
+                        <p>My Rating: ★ ★ ★ ★ ☆</p>
+                        <p> I have a lot have relationship with this one... but overall another comfort anime. Very long, big investment though.</p>
+                    </div>
+                    <p id="title13"></p>
+                </div>
+                <div class="hoverinfo_trigger" style="position: relative; display: inline-block;">
+                    <img src="" alt="Dororo" id="imageUrl14">
+                    <div class="tooltip">
+                        <p style="background-color: #FCE8F1;">Dororo</p>
+                        <p>My Rating: ★ ★ ★ ★ ★ </p>
+                        <p> PEAKKKK omg honestly so so good. Everyone should watch this one, very gratifying.</p>
+                    </div>
+                    <p id="title14"></p>
+                </div>
+                <div class="hoverinfo_trigger" style="position: relative; display: inline-block;">
+                    <img src="" alt="Tensei shitara Slime Datta Ken" id="imageUrl15">
+                    <div class="tooltip">
+                        <p style="background-color: #FCE8F1;">That Time I Got Reincarnated as a Slime</p>
+                        <p>My Rating: ★ ★ ★ ★ ☆</p>
+                        <p>One of the better isekai, very very wholesome. Again another great underdog story would definitely recommend!!</p>
+                    </div>
+                    <p id="title15"></p>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <footer style="margin-top: 100px; text-align: center;">
+        <hr>
+        <p>Made with Jikan (MyAnimeList API)</p>
+    </footer>
+</body>
+</html>
